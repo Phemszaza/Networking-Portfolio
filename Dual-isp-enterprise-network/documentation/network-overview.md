@@ -10,11 +10,13 @@ The network follows a hierarchical enterprise design:
 ## Core Layer
 - CORE-SW1
 - CORE-SW2
+  
 Provides high-speed routing and redundancy.
 
 ## Distribution Layer
 - DIST-SW1
 - DIST-SW2
+  
 Aggregates access layer switches and performs inter-VLAN routing.
 
 ## Edge Layer
