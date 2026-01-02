@@ -1,16 +1,16 @@
 # IP Addressing Plan
 
 ## Internal VLANs
-| VLAN | Purpose        | Subnet          |
-|------|--------------------------|-----------------|
-| 10   | Corporate Data (users)   | 10.10.10.0/24   |
-| 20   | Voice(IP phones)         | 10.10.20.0/24   |
-| 30   | Printers                 | 10.10.30.0/24   |
-| 40   | Corporate Wi-Fi          | 10.10.40.0/24   |
-| 50   | Guest Wi-Fi              | 10.10.50.0/24   |
-| 70   | Servers                  | 10.10.70.0/24   |
-| 90   | Voice Services           | 10.10.90.0/24   |
-| 99   | Management               | 10.10.99.0/24   |
+| VLAN | Purpose                  | Subnet          | DIST-SW1(Active SVI IP)   | DIST-SW2(Standyby SVI IP) |
+|------|--------------------------|-----------------|---------------------------|---------------------------|
+| 10   | Corporate Data (users)   | 10.10.10.0/24   |   10.10.10.2              |   10.10.10.3              |
+| 20   | Voice(IP phones)         | 10.10.20.0/24   |   10.10.20.2              |   10.10.20.3              |
+| 30   | Printers                 | 10.10.30.0/24   |   10.10.30.2              |   10.10.30.3              |
+| 40   | Corporate Wi-Fi          | 10.10.40.0/24   |   10.10.40.2              |   10.10.40.3              |
+| 50   | Guest Wi-Fi              | 10.10.50.0/24   |   10.10.50.2              |   10.10.50.3              |
+| 70   | Servers                  | 10.10.70.0/24   |   10.10.70.2              |   10.10.70.3              |
+| 90   | Voice Services           | 10.10.90.0/24   |   10.10.90.2              |   10.10.90.3              |
+| 99   | Management               | 10.10.99.0/24   |   10.10.99.2              |   10.10.99.3              |
 
 ## Point-to-Point Links
 | Link                | Subnet |
