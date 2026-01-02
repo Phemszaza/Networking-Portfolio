@@ -6,7 +6,6 @@ The network follows a hierarchical enterprise design:
 - Distribution Layer
 - Access Layer
 - Edge Layer (Internet)
-- ISP ROUTER
 
 ## Core Layer
 - CORE-SW1
@@ -21,6 +20,7 @@ Aggregates access layer switches and performs inter-VLAN routing.
 ## Edge Layer
 - EDGE-R1 connected to ISP-1
 - EDGE-R2 connected to ISP-2
+  
 Performs NAT and Internet access.
 
 ## Access Layer FLOOR 1 SWITCH
