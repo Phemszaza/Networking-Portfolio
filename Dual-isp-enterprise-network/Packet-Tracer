@@ -1,1 +1,25 @@
+# Dual ISP Enterprise Network (Packet Tracer)
 
+## Overview
+This project simulates a redundant enterprise network using two ISPs.
+The design includes Core, Distribution, and Access layers with OSPF,
+NAT, VLAN segmentation, and dual-edge routers for redundancy.
+
+## Features
+- Dual ISP connectivity (ISP-1 and ISP-2)
+- OSPF routing in the internal network
+- NAT on edge routers
+- VLANs for Admin, Finance, Corp, Guest, Voice
+- Redundant Core and Distribution switches
+
+## Tools Used
+- Cisco Packet Tracer
+- Cisco IOS (3560, 2960, ISR routers)
+
+## Status
+✔ Internal routing working  
+✔ NAT working  
+✔ Both ISPs reachable (with load sharing behavior)
+
+## Files
+- Packet Tracer topology file: see below
