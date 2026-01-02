@@ -30,3 +30,9 @@ Performs NAT and Internet access.
 - IP Phones
 - Printers
 - Guest WiFi
+
+## Access Layer FLOOR 2 SWITCH
+- User PCs
+- IP Phones
+- Printers
+- Guest WiFi
