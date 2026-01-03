@@ -8,7 +8,7 @@ Project: Albion University Campus Network
 
 Building A, Administration and Business Faculty
 
-|VLAN ID|	Department          |	Subnet	        | Default Gateway  |	Addressing|
+|VLAN ID|	Department          |	Subnet	        | Default Gateway    |	Addressing|
 |10	    | Management (Admin)	| 192.168.1.0/24	| 192.168.1.1	     |   DHCP     |
 |20	    | Human Resources	    | 192.168.2.0/24	| 192.168.2.1	     |   DHCP     |
 |30	    | Finance	            | 192.168.3.0/24	| 192.168.3.1	     |   DHCP     |
@@ -30,8 +30,8 @@ Building C, Student Labs and IT Department
 
 |VLAN ID|	Department            |	Subnet	        | Default Gateway  |	Addressing|
 |70	    |Student Labs	          |192.168.7.0/24	  |192.168.7.1	     |DHCP
-|80	    |IT Department	        |192.168.8.0/24   |192.168.8.1	     |DHCP
-|80    	|Web & FTP Servers	    |192.168.8.0/24	  |192.168.8.1	     |Static(192.168.8.4) (192.168.8.5))
+|80	    |IT Department	          |192.168.8.0/24   |192.168.8.1	     |DHCP
+|80    	|Web & FTP Servers	      |192.168.8.0/24	  |192.168.8.1	     |Static(192.168.8.4) (192.168.8.5))
 
 
 ⸻
@@ -60,7 +60,7 @@ Faculty of Health and Sciences
 Network	Purpose
 20.0.0.0/30	External Email Server (Cloud)
 
-|Device	      |IP Address  |
+|Device	        |IP Address  |
 |Cloud Router	|20.0.0.1    |
 |Email Server	|20.0.0.2    |
 
