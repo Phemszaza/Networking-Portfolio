@@ -9,6 +9,7 @@ Project: Albion University Campus Network
 Building A, Administration and Business Faculty
 
 |VLAN ID|	Department          |	Subnet	        | Default Gateway    |	Addressing|
+|-------|-----------------------|-------------------|--------------------|------------|
 |10	    | Management (Admin)	| 192.168.1.0/24	| 192.168.1.1	     |   DHCP     |
 |20	    | Human Resources	    | 192.168.2.0/24	| 192.168.2.1	     |   DHCP     |
 |30	    | Finance	            | 192.168.3.0/24	| 192.168.3.1	     |   DHCP     |
