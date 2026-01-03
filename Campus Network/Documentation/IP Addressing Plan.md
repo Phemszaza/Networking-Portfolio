@@ -21,18 +21,20 @@ Building A, Administration and Business Faculty
 Building B, Engineering and Art & Design
 
 |VLAN ID|	Department              |	Subnet	        | Default Gateway  |	Addressing|
-|50	    | Engineering & Computing	| 192.168.5.0/24	| 192.168.5.1	     | DHCP       |
-|60	    |Art & Design	            | 192.168.6.0/24	|192.168.6.1	     | DHCP       |
+|-------|---------------------------|-------------------|------------------|--------------|
+|50	    | Engineering & Computing	| 192.168.5.0/24	| 192.168.5.1      | DHCP         |
+|60	    |Art & Design	            | 192.168.6.0/24	|192.168.6.1       | DHCP         |
 
 
 ⸻
 
 Building C, Student Labs and IT Department
 
-|VLAN ID|	Department            |	Subnet	        | Default Gateway  |	Addressing|
-|70	    |Student Labs	          |192.168.7.0/24	  |192.168.7.1	     |DHCP
-|80	    |IT Department	          |192.168.8.0/24   |192.168.8.1	     |DHCP
-|80    	|Web & FTP Servers	      |192.168.8.0/24	  |192.168.8.1	     |Static(192.168.8.4) (192.168.8.5))
+|VLAN ID|	Department            |	Subnet	        | Default Gateway  |	Addressing                    |
+|-------|-------------------------|-----------------|------------------|----------------------------------|
+|70	    |Student Labs	          |192.168.7.0/24	|192.168.7.1	   |DHCP                              |
+|80	    |IT Department	          |192.168.8.0/24   |192.168.8.1	   |DHCP                              |
+|80    	|Web & FTP Servers	      |192.168.8.0/24	|192.168.8.1	   |Static(192.168.8.4) (192.168.8.5))|
 
 
 ⸻
@@ -42,8 +44,9 @@ Building C, Student Labs and IT Department
 Faculty of Health and Sciences
 
 |VLAN ID|	Department                 |	Subnet	        | Default Gateway  |	Addressing|
-|90	    |Health Science Staff	       |192.168.10.0/24  	| 192.168.10.1	   | DHCP       |
-|100	  |Health Science Student Labs |192.168.11.0/24	  | 192.168.11.1	   | DHCP       |
+|-------|------------------------------|--------------------|------------------|--------------|
+|90	    |Health Science Staff	       |192.168.10.0/24  	| 192.168.10.1	   | DHCP         |
+|100	|Health Science Student Labs   |192.168.11.0/24	    | 192.168.11.1	   | DHCP         |
 
 
 ⸻
@@ -51,7 +54,8 @@ Faculty of Health and Sciences
 3. Inter-Campus WAN Link
 
 |Link	                              |    Subnet	    |Device A	  |Device B   |
-|Main Campus Router ↔ Branch Router |10.10.10.0/30	|10.10.10.1	|10.10.10.2 |
+|-------------------------------------|-----------------|-------------|-----------|
+|Main Campus Router ↔ Branch Router   |10.10.10.0/30	|10.10.10.1	  |10.10.10.2 |
 
 
 ⸻
@@ -62,6 +66,7 @@ Network	Purpose
 20.0.0.0/30	External Email Server (Cloud)
 
 |Device	        |IP Address  |
+|---------------|------------|
 |Cloud Router	|20.0.0.1    |
 |Email Server	|20.0.0.2    |
 
