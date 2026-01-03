@@ -4,7 +4,7 @@ Project: Albion University Campus Network
 
 ⸻
 
-1. Main Campus VLANs
+# 1. Main Campus VLANs
 
 Building A, Administration and Business Faculty
 
@@ -39,7 +39,7 @@ Building C, Student Labs and IT Department
 
 ⸻
 
-2. Branch Campus VLANs
+# 2. Branch Campus VLANs
 
 Faculty of Health and Sciences
 
@@ -51,7 +51,7 @@ Faculty of Health and Sciences
 
 ⸻
 
-3. Inter-Campus WAN Link
+# 3. Inter-Campus WAN Link
 
 |Link	                              |    Subnet	    |Device A	  |Device B   |
 |-------------------------------------|-----------------|-------------|-----------|
@@ -60,7 +60,7 @@ Faculty of Health and Sciences
 
 ⸻
 
-4. External Cloud Network
+# 4. External Cloud Network
 
 Network	Purpose
 20.0.0.0/30	External Email Server (Cloud)
@@ -74,7 +74,7 @@ Static routing is used from the campus router to reach the external cloud networ
 
 ⸻
 
-5. Addressing Summary
+# 5. Addressing Summary
 	•	Each department is isolated using VLANs
 	•	/24 subnets provide sufficient host capacity
 	•	DHCP is used for end-user devices
