@@ -14,7 +14,7 @@ This repository contains my networking projects built using Cisco Packet Tracer 
 - VLAN segmentation
 
 ### 2. Campus Network Design
-(Coming soon)
+(https://github.com/Phemszaza/Networking-Portfolio/tree/22535578c8c045b83ab04167269fca01383c3c9e/Campus%20Network)
 
 ### 3. OSPF and Routing Labs
 (Coming soon)
