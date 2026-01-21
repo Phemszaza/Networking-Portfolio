@@ -16,8 +16,7 @@ This repository contains my networking projects built using Cisco Packet Tracer 
 ### 2. Campus Network Design
 (https://github.com/Phemszaza/Networking-Portfolio/tree/22535578c8c045b83ab04167269fca01383c3c9e/Campus%20Network)
 
-### 3. OSPF and Routing Labs
-(Coming soon)
+### 3. Bank Network Design and Implementation
 
 ## Tools & Technologies
 - Cisco Packet Tracer
