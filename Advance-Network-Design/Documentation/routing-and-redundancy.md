@@ -3,7 +3,7 @@
 ## Routing Protocol
 OSPF is used as the internal routing protocol across:
 - Core switches
-- Layer 3 access switches
+- Layer 2 access switches
 - Firewalls
 
 ## Gateway Redundancy
